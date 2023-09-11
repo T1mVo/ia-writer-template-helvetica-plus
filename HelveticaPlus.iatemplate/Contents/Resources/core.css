@@ -484,7 +484,6 @@ kbd {
   *,
   *:before,
   *:after {
-    color: #000 !important; /* black prints faster */
     box-shadow: none !important;
     text-shadow: none !important;
   }
