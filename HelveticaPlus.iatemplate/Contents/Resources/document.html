@@ -1,12 +1,34 @@
 <!doctype html>
 <html>
+
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <link rel="stylesheet" media="all" href="normalize.css">
     <link rel="stylesheet" media="all" href="core.css">
     <link rel="stylesheet" media="all" href="style.css">
-    <
+    <link rel="stylesheet" href="highlight/styles/default.min.css">
+    <link rel="stylesheet" href="mermaid-js.css">
+    <script src="highlight/highlight.min.js"></script>
+    <script type="module">
+        import mermaid from './mermaid/dist/mermaid.esm.mjs';
+
+        function render() {
+            mermaid.run({
+                querySelector: 'mermaid-js',
+            });
+            document.body.querySelectorAll('pre code').forEach(el => {
+                hljs.highlightElement(el);
+            });
+        }
+
+        window.addEventListener('DOMContentLoaded', function () {
+            render();
+            document.body.addEventListener('ia-writer-change', render);
+        });
+    </script>
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover">
 </head>
+
 <body data-document>&nbsp;</body>
+
 </html>
