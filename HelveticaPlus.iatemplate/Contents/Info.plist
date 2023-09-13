@@ -11,9 +11,9 @@
 	<key>CFBundleName</key>
 	<string>Helvetica Plus</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.0.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>1.0.0.0</string>
 	<key>IATemplateDocumentFile</key>
 	<string>document</string>
 	<key>IATemplateTitleFile</key>
@@ -27,7 +27,7 @@
 	<key>IATemplateHeaderHeight</key>
 	<integer>90</integer>
 	<key>IATemplateDescription</key>
-	<string>The Helvetica template with added code highlighting and mermaid.js support.</string>
+	<string>The original Helvetica template by iA with code highlighting and mermaid.js support.</string>
 	<key>IATemplateAuthor</key>
 	<string>Tim Voßhenrich</string>
 </dict>
