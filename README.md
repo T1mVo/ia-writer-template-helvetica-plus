@@ -2,6 +2,12 @@
 
 Helvetica is based on the original [Helvetica template](https://ia.net/writer/support/preview/templates) by [iA](https://ia.net/). The original template is barely touched; it only extends its functionality by code highlighting using `highlight.js` and includes mermaid diagrams using `mermaid.js`.
 
+## Install
+
+1. Download the source code from the [release page](https://github.com/T1mVo/ia-writer-template-helvetica-plus/releases/latest).
+2. Extract the archive.
+3. Follow the [install instructions](https://ia.net/writer/support/preview/custom-templates).
+
 ## Usage
 
 ### Code highlighting
